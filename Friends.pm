@@ -16,7 +16,7 @@ our @EXPORT_OK = ( @{ $EXPORT_TAGS{'all'} } );
 
 our @EXPORT = qw( );  # none by default
 
-our $VERSION = '1.02';
+our $VERSION = '1.03';
 
 sub Version { $VERSION }
 
@@ -73,7 +73,7 @@ sub _update {
           my %entry;
           %entry = ();
           $entry{'name'} = $2;
-          next if ($entry{'name'} eq 'queryqueryqueryqueryqu'); # skip lookups
+          next if ($entry{'id'} eq 'queryqueryqueryqueryqu'); # skip lookups
           $entry{'lat'} = $3;
           $entry{'lon'} = $4;
           $entry{'time'} = $5;

@@ -1,5 +1,9 @@
 Revision history for Perl extension Net::Friends.
 
+1.02  Sun Jan 11 20:51:03 2004
+	- fixed remote query node filtering
+	- added .yml file
+
 1.02  Sun Jan 11 17:09:51 2004
 	- fixed a packaging error
 
