@@ -1,10 +1,15 @@
-Net/Friends version 1.00
+Net/Friends version 1.02
 ========================
 
 Net::Friends allows for the reporting to and querying of GPSDrive-style
 friendsd servers.  The friendsd server used simple UDP messages to update and
 report the most recent known position, speed, and direction of people and
 things.
+
+CHANGES FROM 1.01 to 1.02
+
+None.  Just fixing a packaging error.  See the 'Changes' file for information
+on previous updates.
 
 INSTALLATION
 

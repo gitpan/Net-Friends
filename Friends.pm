@@ -16,7 +16,7 @@ our @EXPORT_OK = ( @{ $EXPORT_TAGS{'all'} } );
 
 our @EXPORT = qw( );  # none by default
 
-our $VERSION = '1.00';
+our $VERSION = '1.02';
 
 sub Version { $VERSION }
 
@@ -46,7 +46,7 @@ sub _maybe_update {
     if ($self->{last_update} + $self->{max_update_freq} > time) {
         return;  # updated too recently
     }
-    $self->update;
+    $self->_update;
 }
 
 # give our position and get positions of others
